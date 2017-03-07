@@ -494,6 +494,14 @@ CounterAnimator.h
 AbstractLightAnimator.h
 /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.h
 
+/home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.cpp
+RunningRainbowAnimator.h
+/home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.h
+
+/home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.h
+AbstractLightAnimator.h
+/home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.h
+
 /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.cpp
 TextAnimator.h
 /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.h
@@ -502,11 +510,25 @@ TextAnimator.h
 AbstractLightAnimator.h
 /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.h
 
+/home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.cpp
+WholeRainbowAnimator.h
+/home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.h
+
+/home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.h
+../Environment.h
+/home/ziv/Code/arduino/ByteCostume/src/Environment.h
+AbstractLightAnimator.h
+/home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.h
+
 /home/ziv/Code/arduino/ByteCostume/src/ByteCostumeManager.cpp
 ByteCostumeManager.h
 /home/ziv/Code/arduino/ByteCostume/src/ByteCostumeManager.h
 Animators/TextAnimator.h
 /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.h
+Animators/WholeRainbowAnimator.h
+/home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.h
+Animators/RunningRainbowAnimator.h
+/home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.h
 
 /home/ziv/Code/arduino/ByteCostume/src/ByteCostumeManager.h
 Animators/AbstractLightAnimator.h

@@ -71,7 +71,7 @@ CMakeFiles/upload.dir/all: CMakeFiles/ByteCostume-upload.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 51
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/upload.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/upload.dir/rule
@@ -103,7 +103,7 @@ CMakeFiles/ByteCostume-upload.dir/all: CMakeFiles/ByteCostume.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ByteCostume-upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 51
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ByteCostume-upload.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ByteCostume-upload.dir/rule
@@ -127,13 +127,13 @@ clean: CMakeFiles/ByteCostume-upload.dir/clean
 # Target rules for target CMakeFiles/ByteCostume.dir
 
 # All Build rule for target.
-CMakeFiles/ByteCostume.dir/all: CMakeFiles/nano328_FastLED.dir/all
-CMakeFiles/ByteCostume.dir/all: CMakeFiles/MyFastLED.dir/all
 CMakeFiles/ByteCostume.dir/all: CMakeFiles/nano328_SoftwareSerial.dir/all
+CMakeFiles/ByteCostume.dir/all: CMakeFiles/MyFastLED.dir/all
 CMakeFiles/ByteCostume.dir/all: CMakeFiles/nano328_CORE.dir/all
+CMakeFiles/ByteCostume.dir/all: CMakeFiles/nano328_FastLED.dir/all
 	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/depend
 	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ByteCostume"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target ByteCostume"
 .PHONY : CMakeFiles/ByteCostume.dir/all
 
 # Include target in all.
@@ -143,7 +143,7 @@ all: CMakeFiles/ByteCostume.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ByteCostume.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 49
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 51
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ByteCostume.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ByteCostume.dir/rule
@@ -167,12 +167,12 @@ clean: CMakeFiles/ByteCostume.dir/clean
 # Target rules for target CMakeFiles/MyFastLED.dir
 
 # All Build rule for target.
-CMakeFiles/MyFastLED.dir/all: CMakeFiles/nano328_FastLED.dir/all
 CMakeFiles/MyFastLED.dir/all: CMakeFiles/nano328_SoftwareSerial.dir/all
 CMakeFiles/MyFastLED.dir/all: CMakeFiles/nano328_CORE.dir/all
+CMakeFiles/MyFastLED.dir/all: CMakeFiles/nano328_FastLED.dir/all
 	$(MAKE) -f CMakeFiles/MyFastLED.dir/build.make CMakeFiles/MyFastLED.dir/depend
 	$(MAKE) -f CMakeFiles/MyFastLED.dir/build.make CMakeFiles/MyFastLED.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17 "Built target MyFastLED"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18,19 "Built target MyFastLED"
 .PHONY : CMakeFiles/MyFastLED.dir/all
 
 # Include target in all.
@@ -209,7 +209,7 @@ clean: CMakeFiles/MyFastLED.dir/clean
 CMakeFiles/nano328_SoftwareSerial.dir/all: CMakeFiles/nano328_CORE.dir/all
 	$(MAKE) -f CMakeFiles/nano328_SoftwareSerial.dir/build.make CMakeFiles/nano328_SoftwareSerial.dir/depend
 	$(MAKE) -f CMakeFiles/nano328_SoftwareSerial.dir/build.make CMakeFiles/nano328_SoftwareSerial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target nano328_SoftwareSerial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target nano328_SoftwareSerial"
 .PHONY : CMakeFiles/nano328_SoftwareSerial.dir/all
 
 # Include target in all.
@@ -247,7 +247,7 @@ CMakeFiles/nano328_FastLED.dir/all: CMakeFiles/nano328_SoftwareSerial.dir/all
 CMakeFiles/nano328_FastLED.dir/all: CMakeFiles/nano328_CORE.dir/all
 	$(MAKE) -f CMakeFiles/nano328_FastLED.dir/build.make CMakeFiles/nano328_FastLED.dir/depend
 	$(MAKE) -f CMakeFiles/nano328_FastLED.dir/build.make CMakeFiles/nano328_FastLED.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=39,40,41,42,43,44,45,46,47,48 "Built target nano328_FastLED"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50 "Built target nano328_FastLED"
 .PHONY : CMakeFiles/nano328_FastLED.dir/all
 
 # Include target in all.
@@ -284,12 +284,12 @@ clean: CMakeFiles/nano328_FastLED.dir/clean
 CMakeFiles/ByteCostume-size.dir/all: CMakeFiles/ByteCostume.dir/all
 	$(MAKE) -f CMakeFiles/ByteCostume-size.dir/build.make CMakeFiles/ByteCostume-size.dir/depend
 	$(MAKE) -f CMakeFiles/ByteCostume-size.dir/build.make CMakeFiles/ByteCostume-size.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=7 "Built target ByteCostume-size"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=9 "Built target ByteCostume-size"
 .PHONY : CMakeFiles/ByteCostume-size.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ByteCostume-size.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 50
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 52
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ByteCostume-size.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ByteCostume-size.dir/rule
@@ -316,7 +316,7 @@ clean: CMakeFiles/ByteCostume-size.dir/clean
 CMakeFiles/nano328_CORE.dir/all:
 	$(MAKE) -f CMakeFiles/nano328_CORE.dir/build.make CMakeFiles/nano328_CORE.dir/depend
 	$(MAKE) -f CMakeFiles/nano328_CORE.dir/build.make CMakeFiles/nano328_CORE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38 "Built target nano328_CORE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target nano328_CORE"
 .PHONY : CMakeFiles/nano328_CORE.dir/all
 
 # Include target in all.

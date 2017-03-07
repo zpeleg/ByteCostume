@@ -538,6 +538,33 @@ src/Animators/CounterAnimator.cpp.s:
 	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.s
 .PHONY : src/Animators/CounterAnimator.cpp.s
 
+src/Animators/RunningRainbowAnimator.obj: src/Animators/RunningRainbowAnimator.cpp.obj
+
+.PHONY : src/Animators/RunningRainbowAnimator.obj
+
+# target to build an object file
+src/Animators/RunningRainbowAnimator.cpp.obj:
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj
+.PHONY : src/Animators/RunningRainbowAnimator.cpp.obj
+
+src/Animators/RunningRainbowAnimator.i: src/Animators/RunningRainbowAnimator.cpp.i
+
+.PHONY : src/Animators/RunningRainbowAnimator.i
+
+# target to preprocess a source file
+src/Animators/RunningRainbowAnimator.cpp.i:
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.i
+.PHONY : src/Animators/RunningRainbowAnimator.cpp.i
+
+src/Animators/RunningRainbowAnimator.s: src/Animators/RunningRainbowAnimator.cpp.s
+
+.PHONY : src/Animators/RunningRainbowAnimator.s
+
+# target to generate assembly for a file
+src/Animators/RunningRainbowAnimator.cpp.s:
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.s
+.PHONY : src/Animators/RunningRainbowAnimator.cpp.s
+
 src/Animators/TextAnimator.obj: src/Animators/TextAnimator.cpp.obj
 
 .PHONY : src/Animators/TextAnimator.obj
@@ -564,6 +591,33 @@ src/Animators/TextAnimator.s: src/Animators/TextAnimator.cpp.s
 src/Animators/TextAnimator.cpp.s:
 	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.s
 .PHONY : src/Animators/TextAnimator.cpp.s
+
+src/Animators/WholeRainbowAnimator.obj: src/Animators/WholeRainbowAnimator.cpp.obj
+
+.PHONY : src/Animators/WholeRainbowAnimator.obj
+
+# target to build an object file
+src/Animators/WholeRainbowAnimator.cpp.obj:
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj
+.PHONY : src/Animators/WholeRainbowAnimator.cpp.obj
+
+src/Animators/WholeRainbowAnimator.i: src/Animators/WholeRainbowAnimator.cpp.i
+
+.PHONY : src/Animators/WholeRainbowAnimator.i
+
+# target to preprocess a source file
+src/Animators/WholeRainbowAnimator.cpp.i:
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.i
+.PHONY : src/Animators/WholeRainbowAnimator.cpp.i
+
+src/Animators/WholeRainbowAnimator.s: src/Animators/WholeRainbowAnimator.cpp.s
+
+.PHONY : src/Animators/WholeRainbowAnimator.s
+
+# target to generate assembly for a file
+src/Animators/WholeRainbowAnimator.cpp.s:
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.s
+.PHONY : src/Animators/WholeRainbowAnimator.cpp.s
 
 src/ByteCostumeManager.obj: src/ByteCostumeManager.cpp.obj
 
@@ -1235,9 +1289,15 @@ help:
 	@echo "... src/Animators/CounterAnimator.obj"
 	@echo "... src/Animators/CounterAnimator.i"
 	@echo "... src/Animators/CounterAnimator.s"
+	@echo "... src/Animators/RunningRainbowAnimator.obj"
+	@echo "... src/Animators/RunningRainbowAnimator.i"
+	@echo "... src/Animators/RunningRainbowAnimator.s"
 	@echo "... src/Animators/TextAnimator.obj"
 	@echo "... src/Animators/TextAnimator.i"
 	@echo "... src/Animators/TextAnimator.s"
+	@echo "... src/Animators/WholeRainbowAnimator.obj"
+	@echo "... src/Animators/WholeRainbowAnimator.i"
+	@echo "... src/Animators/WholeRainbowAnimator.s"
 	@echo "... src/ByteCostumeManager.obj"
 	@echo "... src/ByteCostumeManager.i"
 	@echo "... src/ByteCostumeManager.s"

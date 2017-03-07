@@ -57,81 +57,9 @@ include CMakeFiles/ByteCostume.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ByteCostume.dir/flags.make
 
-CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj: CMakeFiles/ByteCostume.dir/flags.make
-CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj: ../src/Animators/AbstractLightAnimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj"
-	/usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj -c /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.cpp
-
-CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.i"
-	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.cpp > CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.i
-
-CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.s"
-	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.cpp -o CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.s
-
-CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.requires:
-
-.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.requires
-
-CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.provides: CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.requires
-	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.provides.build
-.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.provides
-
-CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.provides.build: CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj
-
-
-CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj: CMakeFiles/ByteCostume.dir/flags.make
-CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj: ../src/Animators/CounterAnimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj"
-	/usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj -c /home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.cpp
-
-CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.i"
-	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.cpp > CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.i
-
-CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.s"
-	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.cpp -o CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.s
-
-CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.requires:
-
-.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.requires
-
-CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.provides: CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.requires
-	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.provides.build
-.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.provides
-
-CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.provides.build: CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj
-
-
-CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj: CMakeFiles/ByteCostume.dir/flags.make
-CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj: ../src/Animators/TextAnimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj"
-	/usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj -c /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.cpp
-
-CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.i"
-	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.cpp > CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.i
-
-CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.s"
-	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.cpp -o CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.s
-
-CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.requires:
-
-.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.requires
-
-CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.provides: CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.requires
-	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.provides.build
-.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.provides
-
-CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.provides.build: CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj
-
-
 CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj: CMakeFiles/ByteCostume.dir/flags.make
 CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj: ../src/ByteCostumeManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj"
 	/usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj -c /home/ziv/Code/arduino/ByteCostume/src/ByteCostumeManager.cpp
 
 CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.i: cmake_force
@@ -155,7 +83,7 @@ CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj.provides.build: CMakeF
 
 CMakeFiles/ByteCostume.dir/src/main.cpp.obj: CMakeFiles/ByteCostume.dir/flags.make
 CMakeFiles/ByteCostume.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ByteCostume.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ByteCostume.dir/src/main.cpp.obj"
 	/usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ByteCostume.dir/src/main.cpp.obj -c /home/ziv/Code/arduino/ByteCostume/src/main.cpp
 
 CMakeFiles/ByteCostume.dir/src/main.cpp.i: cmake_force
@@ -177,22 +105,146 @@ CMakeFiles/ByteCostume.dir/src/main.cpp.obj.provides: CMakeFiles/ByteCostume.dir
 CMakeFiles/ByteCostume.dir/src/main.cpp.obj.provides.build: CMakeFiles/ByteCostume.dir/src/main.cpp.obj
 
 
+CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj: CMakeFiles/ByteCostume.dir/flags.make
+CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj: ../src/Animators/AbstractLightAnimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj"
+	/usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj -c /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.cpp
+
+CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.i"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.cpp > CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.i
+
+CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.s"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.cpp -o CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.s
+
+CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.requires
+
+CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.provides: CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.provides.build
+.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.provides
+
+CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.provides.build: CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj
+
+
+CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj: CMakeFiles/ByteCostume.dir/flags.make
+CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj: ../src/Animators/CounterAnimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj"
+	/usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj -c /home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.cpp
+
+CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.i"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.cpp > CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.i
+
+CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.s"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.cpp -o CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.s
+
+CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.requires
+
+CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.provides: CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.provides.build
+.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.provides
+
+CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.provides.build: CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj
+
+
+CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj: CMakeFiles/ByteCostume.dir/flags.make
+CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj: ../src/Animators/TextAnimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj"
+	/usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj -c /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.cpp
+
+CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.i"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.cpp > CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.i
+
+CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.s"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.cpp -o CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.s
+
+CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.requires
+
+CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.provides: CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.provides.build
+.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.provides
+
+CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.provides.build: CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj
+
+
+CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj: CMakeFiles/ByteCostume.dir/flags.make
+CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj: ../src/Animators/WholeRainbowAnimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj"
+	/usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj -c /home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.cpp
+
+CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.i"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.cpp > CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.i
+
+CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.s"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.cpp -o CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.s
+
+CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj.requires
+
+CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj.provides: CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj.provides.build
+.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj.provides
+
+CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj.provides.build: CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj
+
+
+CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj: CMakeFiles/ByteCostume.dir/flags.make
+CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj: ../src/Animators/RunningRainbowAnimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj"
+	/usr/bin/avr-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj -c /home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.cpp
+
+CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.i"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.cpp > CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.i
+
+CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.s"
+	/usr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.cpp -o CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.s
+
+CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj.requires:
+
+.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj.requires
+
+CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj.provides: CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj.requires
+	$(MAKE) -f CMakeFiles/ByteCostume.dir/build.make CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj.provides.build
+.PHONY : CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj.provides
+
+CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj.provides.build: CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj
+
+
 # Object files for target ByteCostume
 ByteCostume_OBJECTS = \
+"CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj" \
+"CMakeFiles/ByteCostume.dir/src/main.cpp.obj" \
 "CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj" \
 "CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj" \
 "CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj" \
-"CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj" \
-"CMakeFiles/ByteCostume.dir/src/main.cpp.obj"
+"CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj" \
+"CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj"
 
 # External object files for target ByteCostume
 ByteCostume_EXTERNAL_OBJECTS =
 
+ByteCostume.elf: CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj
+ByteCostume.elf: CMakeFiles/ByteCostume.dir/src/main.cpp.obj
 ByteCostume.elf: CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj
 ByteCostume.elf: CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj
 ByteCostume.elf: CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj
-ByteCostume.elf: CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj
-ByteCostume.elf: CMakeFiles/ByteCostume.dir/src/main.cpp.obj
+ByteCostume.elf: CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj
+ByteCostume.elf: CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj
 ByteCostume.elf: CMakeFiles/ByteCostume.dir/build.make
 ByteCostume.elf: libnano328_FastLED.a
 ByteCostume.elf: libnano328_SoftwareSerial.a
@@ -202,7 +254,7 @@ ByteCostume.elf: libnano328_FastLED.a
 ByteCostume.elf: libnano328_SoftwareSerial.a
 ByteCostume.elf: libnano328_CORE.a
 ByteCostume.elf: CMakeFiles/ByteCostume.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ByteCostume.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ByteCostume.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ByteCostume.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating EEP image"
 	/usr/bin/avr-objcopy -O ihex -j .eeprom --set-section-flags=.eeprom=alloc,load --no-change-warnings --change-section-lma .eeprom=0 /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/ByteCostume.elf /home/ziv/Code/arduino/ByteCostume/cmake-build-debug/ByteCostume.eep
@@ -216,11 +268,13 @@ CMakeFiles/ByteCostume.dir/build: ByteCostume.elf
 
 .PHONY : CMakeFiles/ByteCostume.dir/build
 
+CMakeFiles/ByteCostume.dir/requires: CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj.requires
+CMakeFiles/ByteCostume.dir/requires: CMakeFiles/ByteCostume.dir/src/main.cpp.obj.requires
 CMakeFiles/ByteCostume.dir/requires: CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj.requires
 CMakeFiles/ByteCostume.dir/requires: CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj.requires
 CMakeFiles/ByteCostume.dir/requires: CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj.requires
-CMakeFiles/ByteCostume.dir/requires: CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj.requires
-CMakeFiles/ByteCostume.dir/requires: CMakeFiles/ByteCostume.dir/src/main.cpp.obj.requires
+CMakeFiles/ByteCostume.dir/requires: CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj.requires
+CMakeFiles/ByteCostume.dir/requires: CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj.requires
 
 .PHONY : CMakeFiles/ByteCostume.dir/requires
 

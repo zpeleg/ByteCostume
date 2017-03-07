@@ -447,25 +447,22 @@
 		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.h">
 			<Option target="ByteCostume"/>
 		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.cpp">
+			<Option target="ByteCostume"/>
+		</Unit>
+		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.h">
+			<Option target="ByteCostume"/>
+		</Unit>
 		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.cpp">
 			<Option target="ByteCostume"/>
 		</Unit>
 		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.h">
 			<Option target="ByteCostume"/>
 		</Unit>
-		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/ArduinoAbstract/ArduinoPinWrapper.h">
+		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.cpp">
 			<Option target="ByteCostume"/>
 		</Unit>
-		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/ArduinoAbstract/ArduinoTimeWrapper.h">
-			<Option target="ByteCostume"/>
-		</Unit>
-		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/ArduinoAbstract/IPinWrapper.h">
-			<Option target="ByteCostume"/>
-		</Unit>
-		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/ArduinoAbstract/ITimeWrapper.h">
-			<Option target="ByteCostume"/>
-		</Unit>
-		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/ArduinoAbstract/consts.h">
+		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.h">
 			<Option target="ByteCostume"/>
 		</Unit>
 		<Unit filename="/home/ziv/Code/arduino/ByteCostume/src/ByteCostumeManager.cpp">

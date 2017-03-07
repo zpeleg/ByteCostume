@@ -24,12 +24,22 @@ generate_arduino_library(MyFastLED
         HDRS ${FastLED_HDRS})
 
 file(GLOB_RECURSE CODE_SRCS
-        src/*.cpp
-        src/Animators/*.cpp)
+        src/ByteCostumeManager.cpp
+        src/main.cpp
+        src/Animators/AbstractLightAnimator.cpp
+        src/Animators/CounterAnimator.cpp
+        src/Animators/TextAnimator.cpp
+        src/Animators/WholeRainbowAnimator.cpp
+        src/Animators/RunningRainbowAnimator.cpp)
 
 file(GLOB_RECURSE CODE_HDRS
-        src/*.h
-        src/Animators/*.h)
+        src/Environment.h
+        src/ByteCostumeManager.h
+        src/Animators/AbstractLightAnimator.h
+        src/Animators/CounterAnimator.h
+        src/Animators/TextAnimator.h
+        src/Animators/WholeRainbowAnimator.h
+        src/Animators/RunningRainbowAnimator.h)
 generate_arduino_firmware(ByteCostume
         SRCS ${CODE_SRCS}
         HDRS ${CODE_HDRS} ${FastLED_HDRS}

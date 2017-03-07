@@ -13,3 +13,7 @@ void CounterAnimator::RunAnimation() {
     _currentNumber++;
 }
 
+unsigned long CounterAnimator::GetDelay() {
+    return 500;
+}
+

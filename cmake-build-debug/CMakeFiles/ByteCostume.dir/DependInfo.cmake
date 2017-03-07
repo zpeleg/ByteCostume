@@ -6,7 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.cpp" "/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj"
   "/home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.cpp" "/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj"
+  "/home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.cpp" "/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj"
   "/home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.cpp" "/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj"
+  "/home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.cpp" "/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj"
   "/home/ziv/Code/arduino/ByteCostume/src/ByteCostumeManager.cpp" "/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj"
   "/home/ziv/Code/arduino/ByteCostume/src/main.cpp" "/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/ByteCostume.dir/src/main.cpp.obj"
   )

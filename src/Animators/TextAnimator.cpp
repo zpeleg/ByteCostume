@@ -16,3 +16,7 @@ void TextAnimator::RunAnimation() {
         _currentIndex = 0;
     }
 }
+
+unsigned long TextAnimator::GetDelay() {
+    return 1000;
+}

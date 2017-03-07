@@ -15,6 +15,7 @@ public:
     virtual ~CounterAnimator(){}
 
     void RunAnimation() override;
+    unsigned long GetDelay() override;
 
 private:
     byte _currentNumber;

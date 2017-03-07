@@ -1,9 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj"
+  "CMakeFiles/ByteCostume.dir/src/main.cpp.obj"
   "CMakeFiles/ByteCostume.dir/src/Animators/AbstractLightAnimator.cpp.obj"
   "CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj"
   "CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj"
-  "CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj"
-  "CMakeFiles/ByteCostume.dir/src/main.cpp.obj"
+  "CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj"
+  "CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj"
   "ByteCostume.pdb"
   "ByteCostume.elf"
 )

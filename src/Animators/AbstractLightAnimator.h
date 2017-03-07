@@ -17,6 +17,7 @@ public:
         delete _data;
     }
     virtual void RunAnimation() = 0;
+    virtual unsigned long GetDelay() = 0;
 protected:
     CRGB (&_leds)[8];
     char *_data;

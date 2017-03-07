@@ -14,6 +14,7 @@ public:
     virtual ~TextAnimator(){ }
 
     void RunAnimation() override;
+    unsigned long GetDelay() override ;
 
 private:
     size_t _textLength;

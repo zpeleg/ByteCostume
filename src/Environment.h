@@ -13,6 +13,6 @@
 #define NUM_LEDS 8
 
 #define LED_PIN 12
-#define DELAY_AMOUNT 500
+#define DELAY_AMOUNT 100
 
 #endif //BYTECOSTUME_ENVIRONMENT_H

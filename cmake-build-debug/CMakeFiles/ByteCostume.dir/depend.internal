@@ -160,6 +160,86 @@ CMakeFiles/ByteCostume.dir/src/Animators/CounterAnimator.cpp.obj
  /home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.cpp
  /home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.h
  /home/ziv/Code/arduino/ByteCostume/src/Environment.h
+CMakeFiles/ByteCostume.dir/src/Animators/RunningRainbowAnimator.cpp.obj
+ /home/ziv/Code/arduino/ByteCostume/FastLED/./dmx.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/FastLED.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/bitswap.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/chipsets.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/color.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/colorpalettes.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/colorutils.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/controller.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/cpp_compat.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastled_config.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastled_progmem.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastpin.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastspi.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastspi_bitbang.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastspi_types.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/hsv2rgb.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/led_sysdefs.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/lib8tion.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/lib8tion/math8.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/lib8tion/random8.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/lib8tion/scale8.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/lib8tion/trig8.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/noise.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/pixelset.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/pixeltypes.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/d21/clockless_arm_d21.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/d21/fastled_arm_d21.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/d21/fastpin_arm_d21.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/d21/led_sysdefs_arm_d21.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/clockless_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/clockless_block_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/fastled_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/fastpin_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/fastspi_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/led_sysdefs_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/octows2811_controller.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/smartmatrix_t3.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/clockless_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/clockless_block_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/fastled_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/fastpin_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/fastspi_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/led_sysdefs_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/kl26/clockless_arm_kl26.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/kl26/fastled_arm_kl26.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/kl26/fastpin_arm_kl26.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/kl26/fastspi_arm_kl26.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/kl26/led_sysdefs_arm_kl26.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/nrf51/clockless_arm_nrf51.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/nrf51/fastled_arm_nrf51.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/nrf51/fastpin_arm_nrf51.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/nrf51/fastspi_arm_nrf51.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/nrf51/led_sysdefs_arm_nrf51.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/clockless_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/clockless_block_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/fastled_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/fastpin_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/fastspi_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/led_sysdefs_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/stm32/clockless_arm_stm32.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/stm32/fastled_arm_stm32.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/stm32/fastpin_arm_stm32.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/stm32/led_sysdefs_arm_stm32.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/avr/clockless_trinket.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/avr/fastled_avr.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/avr/fastpin_avr.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/avr/fastspi_avr.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/avr/led_sysdefs_avr.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/esp/8266/clockless_block_esp8266.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/esp/8266/clockless_esp8266.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/esp/8266/fastled_esp8266.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/esp/8266/fastpin_esp8266.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/esp/8266/led_sysdefs_esp8266.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/power_mgt.h
+ /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.h
+ /home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.cpp
+ /home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.h
+ /home/ziv/Code/arduino/ByteCostume/src/Environment.h
 CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj
  /home/ziv/Code/arduino/ByteCostume/FastLED/./dmx.h
  /home/ziv/Code/arduino/ByteCostume/FastLED/FastLED.h
@@ -240,6 +320,86 @@ CMakeFiles/ByteCostume.dir/src/Animators/TextAnimator.cpp.obj
  /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.cpp
  /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.h
  /home/ziv/Code/arduino/ByteCostume/src/Environment.h
+CMakeFiles/ByteCostume.dir/src/Animators/WholeRainbowAnimator.cpp.obj
+ /home/ziv/Code/arduino/ByteCostume/FastLED/./dmx.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/FastLED.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/bitswap.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/chipsets.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/color.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/colorpalettes.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/colorutils.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/controller.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/cpp_compat.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastled_config.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastled_progmem.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastpin.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastspi.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastspi_bitbang.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/fastspi_types.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/hsv2rgb.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/led_sysdefs.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/lib8tion.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/lib8tion/math8.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/lib8tion/random8.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/lib8tion/scale8.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/lib8tion/trig8.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/noise.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/pixelset.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/pixeltypes.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/d21/clockless_arm_d21.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/d21/fastled_arm_d21.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/d21/fastpin_arm_d21.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/d21/led_sysdefs_arm_d21.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/clockless_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/clockless_block_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/fastled_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/fastpin_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/fastspi_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/led_sysdefs_arm_k20.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/octows2811_controller.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k20/smartmatrix_t3.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/clockless_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/clockless_block_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/fastled_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/fastpin_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/fastspi_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/k66/led_sysdefs_arm_k66.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/kl26/clockless_arm_kl26.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/kl26/fastled_arm_kl26.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/kl26/fastpin_arm_kl26.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/kl26/fastspi_arm_kl26.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/kl26/led_sysdefs_arm_kl26.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/nrf51/clockless_arm_nrf51.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/nrf51/fastled_arm_nrf51.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/nrf51/fastpin_arm_nrf51.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/nrf51/fastspi_arm_nrf51.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/nrf51/led_sysdefs_arm_nrf51.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/clockless_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/clockless_block_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/fastled_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/fastpin_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/fastspi_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/sam/led_sysdefs_arm_sam.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/stm32/clockless_arm_stm32.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/stm32/fastled_arm_stm32.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/stm32/fastpin_arm_stm32.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/arm/stm32/led_sysdefs_arm_stm32.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/avr/clockless_trinket.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/avr/fastled_avr.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/avr/fastpin_avr.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/avr/fastspi_avr.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/avr/led_sysdefs_avr.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/esp/8266/clockless_block_esp8266.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/esp/8266/clockless_esp8266.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/esp/8266/fastled_esp8266.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/esp/8266/fastpin_esp8266.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/platforms/esp/8266/led_sysdefs_esp8266.h
+ /home/ziv/Code/arduino/ByteCostume/FastLED/power_mgt.h
+ /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.h
+ /home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.cpp
+ /home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.h
+ /home/ziv/Code/arduino/ByteCostume/src/Environment.h
 CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj
  /home/ziv/Code/arduino/ByteCostume/FastLED/./dmx.h
  /home/ziv/Code/arduino/ByteCostume/FastLED/FastLED.h
@@ -318,7 +478,9 @@ CMakeFiles/ByteCostume.dir/src/ByteCostumeManager.cpp.obj
  /home/ziv/Code/arduino/ByteCostume/FastLED/power_mgt.h
  /home/ziv/Code/arduino/ByteCostume/src/Animators/AbstractLightAnimator.h
  /home/ziv/Code/arduino/ByteCostume/src/Animators/CounterAnimator.h
+ /home/ziv/Code/arduino/ByteCostume/src/Animators/RunningRainbowAnimator.h
  /home/ziv/Code/arduino/ByteCostume/src/Animators/TextAnimator.h
+ /home/ziv/Code/arduino/ByteCostume/src/Animators/WholeRainbowAnimator.h
  /home/ziv/Code/arduino/ByteCostume/src/ByteCostumeManager.cpp
  /home/ziv/Code/arduino/ByteCostume/src/ByteCostumeManager.h
  /home/ziv/Code/arduino/ByteCostume/src/Environment.h
