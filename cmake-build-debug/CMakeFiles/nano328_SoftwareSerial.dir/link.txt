@@ -1,2 +1,0 @@
-/usr/bin/avr-ar qc libnano328_SoftwareSerial.a  CMakeFiles/nano328_SoftwareSerial.dir/usr/share/arduino/libraries/SoftwareSerial/SoftwareSerial.cpp.obj
-/usr/bin/avr-ranlib libnano328_SoftwareSerial.a

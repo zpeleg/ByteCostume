@@ -10,7 +10,14 @@ void setup()
 
 void loop()
 {
-    Serial.println("a");
+    if(Serial.available() > 0)
+    {
+        char buffer[100];
+        memset(buffer,0,100);
+        Serial.readBytesUntil('\n',buffer,100);
+        Serial.print("You wrote: ");
+        Serial.println(buffer);
+        delay(1000);
+    }
     manager.Loop();
-    Serial.println("b");
 }

@@ -10,8 +10,8 @@
 
 void ByteCostumeManager::Setup() {
     FastLED.addLeds<NEOPIXEL, LED_PIN>(_leds, NUM_LEDS);
-//    _animator = new TextAnimator(_leds,"Help Me!");
-    _animator = new RunningRainbowAnimator(_leds,"");
+    _animator = new TextAnimator(_leds,"Help Me!");
+//    _animator = new RunningRainbowAnimator(_leds,"");
 }
 
 void ByteCostumeManager::Loop() {

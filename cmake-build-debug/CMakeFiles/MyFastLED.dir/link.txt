@@ -1,2 +1,0 @@
-/usr/bin/avr-ar qc libMyFastLED.a  CMakeFiles/MyFastLED.dir/FastLED/FastLED.cpp.obj CMakeFiles/MyFastLED.dir/FastLED/bitswap.cpp.obj CMakeFiles/MyFastLED.dir/FastLED/colorpalettes.cpp.obj CMakeFiles/MyFastLED.dir/FastLED/colorutils.cpp.obj CMakeFiles/MyFastLED.dir/FastLED/hsv2rgb.cpp.obj CMakeFiles/MyFastLED.dir/FastLED/lib8tion.cpp.obj CMakeFiles/MyFastLED.dir/FastLED/noise.cpp.obj CMakeFiles/MyFastLED.dir/FastLED/power_mgt.cpp.obj CMakeFiles/MyFastLED.dir/FastLED/wiring.cpp.obj
-/usr/bin/avr-ranlib libMyFastLED.a
