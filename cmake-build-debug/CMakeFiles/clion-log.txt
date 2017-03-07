@@ -1,0 +1,135 @@
+/opt/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=arduino-cmake/cmake/ArduinoToolchain.cmake -G "CodeBlocks - Unix Makefiles" /home/ziv/Code/arduino/ByteCostume
+-- ARDUINO Boards:
+--              uno: Arduino Uno
+--        atmega328: Arduino Duemilanove w/ ATmega328
+--        diecimila: Arduino Diecimila or Duemilanove w/ ATmega168
+--          nano328: Arduino Nano w/ ATmega328
+--             nano: Arduino Nano w/ ATmega168
+--         mega2560: Arduino Mega 2560 or Mega ADK
+--             mega: Arduino Mega (ATmega1280)
+--         leonardo: Arduino Leonardo
+--          esplora: Arduino Esplora
+--            micro: Arduino Micro
+--          mini328: Arduino Mini w/ ATmega328
+--             mini: Arduino Mini w/ ATmega168
+--         ethernet: Arduino Ethernet
+--              fio: Arduino Fio
+--            bt328: Arduino BT w/ ATmega328
+--               bt: Arduino BT w/ ATmega168
+--       LilyPadUSB: LilyPad Arduino USB
+--       lilypad328: LilyPad Arduino w/ ATmega328
+--          lilypad: LilyPad Arduino w/ ATmega168
+--         pro5v328: Arduino Pro or Pro Mini (5V, 16 MHz) w/ ATmega328
+--            pro5v: Arduino Pro or Pro Mini (5V, 16 MHz) w/ ATmega168
+--           pro328: Arduino Pro or Pro Mini (3.3V, 8 MHz) w/ ATmega328
+--              pro: Arduino Pro or Pro Mini (3.3V, 8 MHz) w/ ATmega168
+--        atmega168: Arduino NG or older w/ ATmega168
+--          atmega8: Arduino NG or older w/ ATmega8
+--     robotControl: Arduino Robot Control
+--       robotMotor: Arduino Robot Motor
+-- 
+-- Generating MyFastLED
+-- Generating ByteCostume
+-- Configuring done
+CMake Warning (dev) at arduino-cmake/cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "nano328_FastLED" links to itself.
+Call Stack (most recent call first):
+  arduino-cmake/cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  CMakeLists.txt:21 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at arduino-cmake/cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "nano328_SoftwareSerial" links to itself.
+Call Stack (most recent call first):
+  arduino-cmake/cmake/Platform/Arduino.cmake:990 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  CMakeLists.txt:21 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at arduino-cmake/cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "nano328_FastLED" links to itself.
+Call Stack (most recent call first):
+  arduino-cmake/cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  CMakeLists.txt:21 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at arduino-cmake/cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "nano328_SoftwareSerial" links to itself.
+Call Stack (most recent call first):
+  arduino-cmake/cmake/Platform/Arduino.cmake:990 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  CMakeLists.txt:21 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at arduino-cmake/cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "nano328_FastLED" links to itself.
+Call Stack (most recent call first):
+  arduino-cmake/cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  CMakeLists.txt:21 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at arduino-cmake/cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "nano328_FastLED" links to itself.
+Call Stack (most recent call first):
+  arduino-cmake/cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  CMakeLists.txt:21 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at arduino-cmake/cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "nano328_SoftwareSerial" links to itself.
+Call Stack (most recent call first):
+  arduino-cmake/cmake/Platform/Arduino.cmake:990 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  CMakeLists.txt:21 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at arduino-cmake/cmake/Platform/Arduino.cmake:983 (add_library):
+  Policy CMP0038 is not set: Targets may not link directly to themselves.
+  Run "cmake --help-policy CMP0038" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Target "nano328_SoftwareSerial" links to itself.
+Call Stack (most recent call first):
+  arduino-cmake/cmake/Platform/Arduino.cmake:990 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:1040 (setup_arduino_library)
+  arduino-cmake/cmake/Platform/Arduino.cmake:391 (setup_arduino_libraries)
+  CMakeLists.txt:21 (generate_arduino_library)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/ziv/Code/arduino/ByteCostume/cmake-build-debug

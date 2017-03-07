@@ -1,0 +1,10 @@
+/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/upload.dir
+/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/ByteCostume-upload.dir
+/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/ByteCostume.dir
+/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/MyFastLED.dir
+/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/nano328_SoftwareSerial.dir
+/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/nano328_FastLED.dir
+/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/ByteCostume-size.dir
+/home/ziv/Code/arduino/ByteCostume/cmake-build-debug/CMakeFiles/nano328_CORE.dir
