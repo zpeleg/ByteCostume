@@ -8,12 +8,13 @@ WholeRainbowAnimator::WholeRainbowAnimator(CRGB (&leds)[NUM_LEDS], MessageBus &m
                                                                                              AbstractLightAnimator(leds,
                                                                                                                    messageBus) {
     _delay = 10;
+    _speed = 5;
 }
 
 void WholeRainbowAnimator::RunAnimation() {
 //    fill_rainbow(_leds,NUM_LEDS,_currentHue);
     fill_solid(_leds, NUM_LEDS, _currentColor);
-    _currentColor.hue += 10;
+    _currentColor.hue += _speed;
 }
 
 unsigned long WholeRainbowAnimator::GetDelay() {
