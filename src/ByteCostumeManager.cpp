@@ -8,13 +8,15 @@
 #include "Animators/RunningRainbowAnimator.h"
 
 
+ByteCostumeManager::ByteCostumeManager() : _bluetooth(_messageBus) {
+
+}
+
 void ByteCostumeManager::Setup() {
     FastLED.addLeds<NEOPIXEL, LED_PIN>(_leds, NUM_LEDS);
     _bluetooth.Setup();
-    _animator = new TextAnimator(_leds, _messageBus);
     _messageBus.RegisterObserver(this);
     _animator = new CounterAnimator(_leds, _messageBus);
-//    _animator = new RunningRainbowAnimator(_leds,"");
 }
 
 void ByteCostumeManager::Loop() {
@@ -29,13 +31,28 @@ void ByteCostumeManager::Notify(Message msg) {
     if (msg.Type == "BRIGHTNESS" || msg.Type == "BRIGHT") {
         _brightness = msg.Value.toInt();
     }
-    Serial.println("Got message");
-    Serial.print("Type=");
-    Serial.println(msg.Type);
-    Serial.print("Value=");
+    if (msg.Type == "ANIMATION") {
+        delete _animator;
+        _animator = GetNewAnimator(msg.Value);
+    }
+    Serial.print(msg.Type);
+    Serial.print(" = ");
     Serial.println(msg.Value);
 }
 
-ByteCostumeManager::ByteCostumeManager() : _bluetooth(_messageBus) {
 
+AbstractLightAnimator *ByteCostumeManager::GetNewAnimator(String &name) {
+    name.toUpperCase();
+    if (name == "COUNTER") {
+        return new CounterAnimator(_leds, _messageBus);
+    }
+    if (name == "RUNNING") {
+        return new RunningRainbowAnimator(_leds, _messageBus);
+    }
+    if (name == "TEXT") {
+        return new TextAnimator(_leds, _messageBus);
+    }
+    if (name == "WHOLE" || name == "RAINBOW") {
+        return new WholeRainbowAnimator(_leds, _messageBus);
+    }
 }

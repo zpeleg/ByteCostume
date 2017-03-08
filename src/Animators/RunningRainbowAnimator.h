@@ -18,6 +18,7 @@ public:
 private:
     uint8_t _currentHue;
     uint8_t _speed;
+    uint8_t _delta;
 };
 
 

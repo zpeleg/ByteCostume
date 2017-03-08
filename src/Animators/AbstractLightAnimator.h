@@ -12,7 +12,8 @@
 class AbstractLightAnimator : public IMessageObserver {
 
 public:
-    AbstractLightAnimator(CRGB (&leds)[NUM_LEDS], MessageBus &messageBus) : _leds(leds), _messageBus(messageBus) {
+    AbstractLightAnimator(CRGB (&leds)[NUM_LEDS], MessageBus &messageBus) : _leds(leds), _messageBus(messageBus),
+                                                                            _hue(0), _delay(500) {
         _messageBus.RegisterObserver(this);
     };
 

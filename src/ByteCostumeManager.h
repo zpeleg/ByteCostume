@@ -25,6 +25,8 @@ private:
     uint8_t _brightness=255;
     BluetoothCommunicator _bluetooth;
     MessageBus _messageBus;
+
+    AbstractLightAnimator *GetNewAnimator(String &name);
 };
 
 
