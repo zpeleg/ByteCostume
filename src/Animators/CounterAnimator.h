@@ -10,7 +10,7 @@
 
 class CounterAnimator : public AbstractLightAnimator {
 public:
-    CounterAnimator(CRGB (&leds)[NUM_LEDS], char *data);
+    CounterAnimator(CRGB (&leds)[NUM_LEDS], MessageBus& messageBus);
 
     virtual ~CounterAnimator(){}
 
@@ -19,7 +19,6 @@ public:
 
 private:
     byte _currentNumber;
-
 };
 
 

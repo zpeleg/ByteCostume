@@ -5,7 +5,10 @@
 #include "CounterAnimator.h"
 
 
-CounterAnimator::CounterAnimator(CRGB (&leds)[NUM_LEDS], char* data) : AbstractLightAnimator(leds, data) {}
+CounterAnimator::CounterAnimator(CRGB (&leds)[NUM_LEDS], MessageBus &messageBus) : AbstractLightAnimator(leds,
+                                                                                                         messageBus) {
+    _delay = 500;
+}
 
 void CounterAnimator::RunAnimation() {
     byte numCopy = _currentNumber;
@@ -14,6 +17,7 @@ void CounterAnimator::RunAnimation() {
 }
 
 unsigned long CounterAnimator::GetDelay() {
-    return 500;
+    return _delay;
 }
+
 

@@ -1,7 +1,7 @@
 #set(CMAKE_TOOLCHAIN_FILE arduino-cmake/cmake/ArduinoToolchain.cmake) # Arduino Toolchain
 cmake_minimum_required(VERSION 3.6)
 
-#set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 11)
 
 
 
@@ -26,11 +26,13 @@ generate_arduino_library(MyFastLED
 file(GLOB_RECURSE CODE_SRCS
         src/ByteCostumeManager.cpp
         src/main.cpp
+        src/BluetoothCommunicator.cpp
         src/Animators/AbstractLightAnimator.cpp
         src/Animators/CounterAnimator.cpp
         src/Animators/TextAnimator.cpp
         src/Animators/WholeRainbowAnimator.cpp
-        src/Animators/RunningRainbowAnimator.cpp)
+        src/Animators/RunningRainbowAnimator.cpp
+        src/PubSub/MessageBus.cpp)
 
 file(GLOB_RECURSE CODE_HDRS
         src/Environment.h
@@ -39,7 +41,12 @@ file(GLOB_RECURSE CODE_HDRS
         src/Animators/CounterAnimator.h
         src/Animators/TextAnimator.h
         src/Animators/WholeRainbowAnimator.h
-        src/Animators/RunningRainbowAnimator.h)
+        src/Animators/RunningRainbowAnimator.h
+        src/BluetoothCommunicator.h
+        src/PubSub/Message.h
+        src/PubSub/IMessageObserver.h
+        src/PubSub/MessageBus.h)
+
 generate_arduino_firmware(ByteCostume
         SRCS ${CODE_SRCS}
         HDRS ${CODE_HDRS} ${FastLED_HDRS}

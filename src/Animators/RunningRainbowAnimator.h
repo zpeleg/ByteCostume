@@ -10,12 +10,14 @@
 
 class RunningRainbowAnimator: public AbstractLightAnimator {
 public:
-    RunningRainbowAnimator(CRGB (& leds)[NUM_LEDS], char *data);
+    RunningRainbowAnimator(CRGB (& leds)[NUM_LEDS], MessageBus& messageBus);
     virtual ~RunningRainbowAnimator() { }
     void RunAnimation() override;
     unsigned long GetDelay() override ;
+    void Notify(Message) override;
 private:
     uint8_t _currentHue;
+    uint8_t _speed;
 };
 
 

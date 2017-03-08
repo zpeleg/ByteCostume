@@ -8,16 +8,23 @@
 
 #include "Animators/AbstractLightAnimator.h"
 #include "Animators/CounterAnimator.h"
+#include "PubSub/IMessageObserver.h"
+#include "BluetoothCommunicator.h"
 
-class ByteCostumeManager {
+class ByteCostumeManager:public IMessageObserver {
 public:
+    ByteCostumeManager();
     virtual ~ByteCostumeManager(){}
     void Setup();
     void Loop();
 
+    void Notify(Message) override;
 private:
     CRGB _leds[NUM_LEDS];
     AbstractLightAnimator* _animator;
+    uint8_t _brightness=255;
+    BluetoothCommunicator _bluetooth;
+    MessageBus _messageBus;
 };
 
 
