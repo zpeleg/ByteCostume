@@ -8,7 +8,7 @@ WholeRainbowAnimator::WholeRainbowAnimator(CRGB (&leds)[NUM_LEDS], MessageBus &m
                                                                                              AbstractLightAnimator(leds,
                                                                                                                    messageBus) {
     _delay = 10;
-    _speed = 5;
+    _speed = 2;
 }
 
 void WholeRainbowAnimator::RunAnimation() {
